@@ -1,11 +1,14 @@
-import React, { MouseEventHandler, PropsWithChildren } from 'react'
+import React, { MouseEventHandler } from 'react'
 
-const StackItem = (props: PropsWithChildren<{ click: MouseEventHandler }>) => {
+import classes from './StackItem.module.css';
+
+const StackItem = (props: { click?: MouseEventHandler, imgUrl: string, title: string }) => {
   return (
     <div
       onClick={props.click}
-      className="w-16 h-16 inline-block filter blur-md">
-      {props.children}
+      className={classes.StackItem}>
+      <img className="w-12" src={props.imgUrl} alt='' />
+      {props.title}
     </div>
   )
 }

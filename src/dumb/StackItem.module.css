@@ -1,0 +1,4 @@
+.StackItem {
+  @apply w-24 h-24 inline-flex flex-col items-center justify-center bg-white bg-opacity-30 rounded-md;
+  backdrop-filter: blur(4px);
+}
