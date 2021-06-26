@@ -1,11 +1,11 @@
 import React from 'react'
 
-import gql from '../../assets/gql.svg'
-import mongo from '../../assets/mongo.svg'
-import angular from '../../assets/angular.svg'
-import nodeIcon from '../../assets/node-icon.svg'
-import vue from '../../assets/vue.svg'
-import typeScript from '../../assets/TypeScript.svg'
+import gql from '../../assets/tech-icons/gql.svg'
+import mongo from '../../assets/tech-icons/mongo.svg'
+import angular from '../../assets/tech-icons/angular.svg'
+import nodeIcon from '../../assets/tech-icons/node-icon.svg'
+import vue from '../../assets//tech-iconsvue.svg'
+import typeScript from '../../assets/tech-icons/TypeScript.svg'
 import StackItem from '../dumb/StackItem/StackItem'
 
 const MyStack = () => {

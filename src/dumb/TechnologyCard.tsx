@@ -4,7 +4,7 @@ import { technologies, Technology, TechnologyName } from '../types/Technologies'
 const TechnologyCard = (props: { technologies: Array<TechnologyName> }) => {
   return (
     <div
-      className=''>
+      className='flex gap-3'>
       {props.technologies
         .map((name) => technologies.find((tec) => tec.name === name) as Technology)
         .filter((tec) => !!tec)
