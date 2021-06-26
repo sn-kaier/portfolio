@@ -1,21 +1,12 @@
-import React, { useState } from 'react'
-import Button from './dumb/Button'
+import React from 'react'
 import BgSection from './dumb/BgSection'
-import StackItem from './dumb/StackItem'
-
-import angular from '../assets/angular.svg';
+import MyStack from './sections/MyStack'
 
 function App() {
-  const [count, setCount] = useState(0)
-  const inc = () => setCount((prev) => prev + 1)
-
   return (
-    <div className="mx-auto container">
+    <div className="mx-auto">
       <BgSection>
-        <h1 className="text-white text-2xl">Hello {count}</h1>
-        <Button click={inc}>Inc</Button>
-        <StackItem imgUrl={angular} title='Angular'/>
-        <div className='h-96 flex'/>
+        <MyStack />
       </BgSection>
     </div>
   )
