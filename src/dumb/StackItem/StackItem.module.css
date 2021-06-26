@@ -2,7 +2,8 @@
   @apply inline-flex flex-col items-center justify-center;
   @apply m-4;
   @apply w-24 h-24;
-  @apply bg-white bg-opacity-30 transition duration-100 hover:bg-opacity-50;
+  @apply bg-white bg-opacity-20;
+  @apply transition duration-100 hover:bg-opacity-50;
   @apply rounded-md;
   @apply select-none;
   @apply cursor-pointer;

@@ -4,7 +4,7 @@ import gql from '../../assets/tech-icons/gql.svg'
 import mongo from '../../assets/tech-icons/mongo.svg'
 import angular from '../../assets/tech-icons/angular.svg'
 import nodeIcon from '../../assets/tech-icons/node-icon.svg'
-import vue from '../../assets//tech-iconsvue.svg'
+import vue from '../../assets/tech-icons/vue.svg'
 import typeScript from '../../assets/tech-icons/TypeScript.svg'
 import StackItem from '../dumb/StackItem/StackItem'
 

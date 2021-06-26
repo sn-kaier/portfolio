@@ -3,15 +3,18 @@ import BgSection from './dumb/BgSection'
 import MyStack from './sections/MyStack'
 import MyProjects from './sections/MyProjects'
 
-import startDustUrl from '../assets/stardust.jpg';
+import startDustUrl from '../assets/bg/stardust.jpg';
+import sandUrl from '../assets/bg/sand.jpg';
 
 function App() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col overflow-hidden bg-black gap-4">
       <BgSection imgUrl={startDustUrl}>
         <MyStack />
       </BgSection>
-      <MyProjects />
+      <BgSection imgUrl={sandUrl}>
+        <MyProjects />
+      </BgSection>
     </div>
   )
 }

@@ -1,8 +1,32 @@
 
 .ProjectCard {
     @apply w-app;
-    @apply bg-black bg-opacity-30 transition duration-100;
+    /*@apply bg-black bg-opacity-30;*/
+    @apply transition duration-100;
     @apply rounded-md;
+    background: rgba(179, 168, 101, 0.27);
     @apply p-4;
-    backdrop-filter: blur(4px);
+    @apply mx-4 my-2;
+    backdrop-filter: blur(8px);
 }
+
+.ProjectCard:nth-child(2n) {
+    background: rgba(189, 168, 143, 0.51);
+}
+
+.Headline {
+    @apply text-black font-semibold text-lg;
+}
+
+.SubHeadline {
+    @apply text-red-600;
+}
+
+.MarkdownContainer {
+    @apply text-gray-900;
+}
+
+.MarkdownContainer em {
+    @apply text-yellow-900 font-semibold not-italic;
+}
+

@@ -4,8 +4,9 @@ module.exports = {
     extend: {
       width: {
         app: '46rem',
-      }
-    }
+        around: '70rem'
+      },
+    },
   },
   plugins: [],
 }
