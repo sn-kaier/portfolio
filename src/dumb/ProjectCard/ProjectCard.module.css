@@ -1,0 +1,8 @@
+
+.ProjectCard {
+    @apply w-app;
+    @apply bg-black bg-opacity-30 transition duration-100;
+    @apply rounded-md;
+    @apply p-4;
+    backdrop-filter: blur(4px);
+}

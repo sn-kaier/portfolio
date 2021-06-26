@@ -6,7 +6,7 @@ import angular from '../../assets/angular.svg'
 import nodeIcon from '../../assets/node-icon.svg'
 import vue from '../../assets/vue.svg'
 import typeScript from '../../assets/TypeScript.svg'
-import StackItem from '../dumb/StackItem'
+import StackItem from '../dumb/StackItem/StackItem'
 
 const MyStack = () => {
   const items = [

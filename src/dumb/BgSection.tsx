@@ -1,8 +1,7 @@
 import React, { PropsWithChildren } from 'react'
-import imgUrl from '../../assets/stardust.jpg';
 
-const BgSection = (props: PropsWithChildren<{}>) => (
-  <section className="flex text-white bg-cover" style={{ backgroundImage: `url(${imgUrl})` }}>
+const BgSection = (props: PropsWithChildren<{imgUrl: string}>) => (
+  <section className="flex text-white bg-cover" style={{ backgroundImage: `url(${props.imgUrl})` }}>
     {props.children}
   </section>
 )
