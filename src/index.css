@@ -11,3 +11,12 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.StackItem {
+    @apply inline-flex flex-col items-center justify-center;
+    @apply m-4;
+    @apply bg-white bg-opacity-20;
+    @apply rounded-md;
+    @apply select-none;
+    backdrop-filter: blur(4px);
+}

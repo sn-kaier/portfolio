@@ -7,6 +7,7 @@ import nodeIcon from '../../assets/tech-icons/node-icon.svg'
 import vue from '../../assets/tech-icons/vue.svg'
 import typeScript from '../../assets/tech-icons/TypeScript.svg'
 import StackItem from '../dumb/StackItem/StackItem'
+import PicAndTitle from '../dumb/PicAndTitle'
 
 const MyStack = () => {
   const items = [
@@ -37,10 +38,11 @@ const MyStack = () => {
   ]
 
   return (
-    <div className="flex mx-auto justify-center flex-wrap">
+    <div className="flex mx-auto justify-center flex-wrap w-around">
       {items.map(({ icon, name }) => (
         <StackItem imgUrl={icon} title={name} />
       ))}
+      <PicAndTitle />
     </div>
   )
 }
