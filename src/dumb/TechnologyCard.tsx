@@ -10,7 +10,7 @@ const TechnologyCard = (props: { technologies: Array<TechnologyName> }) => {
         .filter((tec) => !!tec)
         .map((tech) => <img
           className='w-6'
-          src={tech.iconPath} alt={tech.iconPath} title={tech.iconPath} style={{filter: tech.filter}} />)}
+          src={tech.iconPath} alt={tech.iconPath} title={tech.iconPath} />)}
           </div>
           )
         }
